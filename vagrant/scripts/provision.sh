@@ -7,7 +7,7 @@ sudo dpkg -i /tmp/packages-microsoft-prod.deb
 
 # install needed packages
 sudo apt-get update
-sudo apt-get install -y apt-transport-https dotnet-sdk-2.1 git azure-functions-core-tools curl git
+sudo apt-get install -y apt-transport-https dotnet-sdk-2.1 git azure-functions-core-tools curl git vim
 
 # clone the GitHub repo in vagrant user home directory
 git clone https://github.com/slavrd/az-hello-dfunc.git
