@@ -43,4 +43,4 @@ Note that even that the function is running locally it still needs access to Azu
 ### Publish the function to Azure
 
 * Crate a Function App in Azure which will host the function
-* Publish the function - `func azure functionapp publish <name of the host function app>`
+* Publish the function - `func azure functionapp publish <name of the host function app>` - need to have Azure CLI or PowerShell installed and logged in.
